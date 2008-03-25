@@ -1,11 +1,11 @@
 #
 # Conditional build:
-%bcond_without	autodeps	# don't BR packages needed only for resolving deps
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	UTF8BOM
 Summary:	UTF8BOM - handling Byte Order Mark for UTF-8 files
+Summary(pl.UTF-8):	UTF8BOM - obsługa znaczników BOM (Byte Order Mark) dla plików UTF-8
 Name:		perl-UTF8BOM
 Version:	1.01
 Release:	2
@@ -23,6 +23,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This modules allows you to insert UTF8's BOM into strings and files,
 or remove it from them easily.
+
+%description -l pl.UTF-8
+Ten moduł umożliwia łatwe wstawianie i usuwanie znaczników BOM z
+łańcuchów i plików w kodowaniu UTF-8.
 
 %prep
 %setup -q -n %{pdir}-%{version}
