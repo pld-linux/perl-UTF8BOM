@@ -7,13 +7,13 @@
 Summary:	UTF8BOM - handling Byte Order Mark for UTF-8 files
 Summary(pl.UTF-8):	UTF8BOM - obsługa znaczników BOM (Byte Order Mark) dla plików UTF-8
 Name:		perl-UTF8BOM
-Version:	1.01
-Release:	2
+Version:	1.02
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/L/LY/LYOKATO/UTF8BOM-%{version}.tar.gz
-# Source0-md5:	9347f9157119cb1a2361a71b7be94eef
+# Source0-md5:	09b8eeb2ba19e07e2d7d4c008f6016d0
 URL:		http://search.cpan.org/dist/UTF8BOM/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
