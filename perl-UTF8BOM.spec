@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	UTF8BOM
 Summary:	UTF8BOM - handling Byte Order Mark for UTF-8 files
 Summary(pl.UTF-8):	UTF8BOM - obsługa znaczników BOM (Byte Order Mark) dla plików UTF-8
